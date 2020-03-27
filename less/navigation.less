@@ -1,0 +1,88 @@
+.head-container {
+  color: white;
+  height: 15vh;
+  background: @header-bg;
+  .flex-spacing(flex, row, center, center);
+  .logo {
+    width: 28%;
+    margin: @space-margin;
+    font-size: 3.5rem;
+    //background-color: transparent;
+    justify-content: center;
+    align-items: center;
+  }
+  .Nav {
+    width: 100%;
+    nav {
+      font-size: 1.6rem;
+      padding: 20px;
+      .flex-spacing(flex, row, center, center);
+      border: 1px solid blue;
+      justify-content: space-around;
+      // border: 2px solid green;
+      a {
+        //margin: 2%;
+        width: 18%;
+        font-size: 1.2rem;
+        color: white;
+        background: ;
+        padding: 22px;
+        text-decoration: none;
+        text-align: center;
+        border-radius: 10px;
+        border: inset;
+      }
+    }
+  }
+}
+
+@media @phone {
+  .head-container {
+    color: white;
+
+    height: 40vh;
+    background: @header-bg;
+    margin-top: 10px;
+    .flex-spacing(flex, column, center, center);
+    .logo {
+      width: 100%;
+      margin: @space-margin;
+      h1 {
+        font-size: 3.2rem;
+      }
+      h3 {
+        font-size: 1.4rem;
+      }
+      .flex-spacing(flex, column, center, center);
+      //background-color: transparent;
+      justify-content: center;
+      align-items: center;
+    }
+    .Nav {
+      //width: 100%;
+      // .flex-spacing(flex, column, center, center);
+      nav {
+        width: 98%;
+        font-size: 1.6rem;
+        padding: 10px;
+        .flex-spacing(flex, column, center, center);
+        border: 1px solid blue;
+        //justify-content: space-around;
+        // border: 2px solid green;
+        a {
+          //margin: 2%;
+          .flex-spacing(flex, column, center, center);
+          width: 100%;
+          font-size: 1.2rem;
+          color: white;
+          background: @header-bg;
+          padding: 10px;
+          text-decoration: none;
+          text-align: center;
+          border-radius: 10px;
+          border: inset;
+        }
+      }
+    }
+  }
+}

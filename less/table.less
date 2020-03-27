@@ -1,0 +1,76 @@
+@media @desktop {
+  table,
+  th,
+  td {
+    display: none;
+    // margin: 15px auto;
+    // padding: 20px;
+
+    border: 1px solid black;
+
+    tr:nth-child(even) {
+      display: none;
+      //   background-color: #eee;
+      //   color: black;
+    }
+    tr:nth-child(odd) {
+      display: none;
+      //   background-color: #ffa;
+      //   color: navy;
+    }
+    th {
+      display: none;
+      //   background-color: black;
+      //   color: white;
+    }
+  }
+}
+
+@media @tablet {
+  table,
+  th,
+  td {
+    // margin: 15px auto;
+    // padding: 20px;
+
+    //border: 1px solid black;
+
+    tr:nth-child(even) {
+      //display: none;
+      // background-color: #eee;
+      //color: black;
+    }
+    tr:nth-child(odd) {
+      //display: none;
+      //background-color: #ffa;
+      // color: navy;
+    }
+    th {
+      // background-color: black;
+      // color: white;
+    }
+  }
+}
+@media @phone {
+  table,
+  th,
+  td {
+    margin: 15px auto;
+    padding: 22px;
+
+    border: 1px solid black;
+
+    tr:nth-child(even) {
+      background-color: #eee;
+      color: black;
+    }
+    tr:nth-child(odd) {
+      background-color: #ffa;
+      color: navy;
+    }
+    th {
+      background-color: black;
+      color: white;
+    }
+  }
+}
