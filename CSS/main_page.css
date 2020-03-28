@@ -299,7 +299,7 @@ footer {
 }
 .middle-content .parent .childOne,
 .middle-content .parent .childTwo {
-  width: 45%;
+  width: 30%;
   height: auto;
   padding: 2%;
   margin: 2%;
@@ -318,7 +318,6 @@ footer {
 .middle-content .parent .childOne .pic .co-div img,
 .middle-content .parent .childTwo .pic .co-div img {
   margin: 2%;
-  border: 2px dashed red;
   width: 50%;
   border-radius: 50%;
 }
@@ -346,9 +345,6 @@ footer {
     justify-content: center;
     align-items: center;
   }
-}
-.middle-content {
-  border: 6px solid brown;
 }
 .Top-content .myimg {
   display: flex;
