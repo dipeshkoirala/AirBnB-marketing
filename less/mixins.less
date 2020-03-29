@@ -1,17 +1,27 @@
-// Mixins Here
-.flex-spacing(@f,@d,@j,@c) {
-  display: @f;
-  flex-direction: @d;
-  justify-content: @j;
-  align-items: @c;
+.style-button(@backround-color, @text-color, @button-height, @button-width, @button-radius) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: @backround-color;
+    color: @text-color;
+    height: @button-height;
+    width:  @button-width;
+    border-radius: @button-radius;
+
+} 
+
+
+.flex-center() {
+	display: flex;
+	justify-content: center;
 }
 
-.button-mixins(@p,@btn-color,@font-color) {
-  padding: @p;
-  background: @btn-color;
-  color: @font-color;
+.flex-space-evenly() {
+	display: flex;
+	justify-content: space-evenly;
 }
-.margin-gen() {
-  margin: 2%;
-  padding: 1%;
+
+.inner-margin() {
+	width: @inner-margin;
+	margin: 1% 0 1% 0;
 }
