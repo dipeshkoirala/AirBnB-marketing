@@ -1,0 +1,34 @@
+img {
+  width: 250px;
+  height: 250px;
+}
+@media (min-width: 500px) {
+  img {
+    width: 100%;
+    padding-bottom: 3%;
+  }
+}
+#Body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+.statement .list {
+  margin-bottom: 5%;
+}
+.statement .list li {
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: fit-content;
+  margin: 2%;
+}
+@media (max-width: 800px) {
+  .statement {
+    width: 100%;
+    padding-bottom: 3%;
+    flex-direction: column;
+  }
+}

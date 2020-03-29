@@ -1,0 +1,14 @@
+#Beach {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 500px) {
+  #Beach {
+    display: flex;
+    flex-direction: column;
+  }
+}
+#Beach h4 {
+  margin-left: 3%;
+}

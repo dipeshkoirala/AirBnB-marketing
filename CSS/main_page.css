@@ -137,12 +137,12 @@ table {
 h1 {
   font-size: 3rem;
 }
-@media (max-width:500px) {
+@media (max-width: 500px) {
   h1 {
     font-size: 1.6rem;
   }
 }
-@media (max-width:1000px) {
+@media (max-width: 1000px) {
   h1 {
     font-size: 2rem;
   }
@@ -151,12 +151,12 @@ h3 {
   font-size: 1.6rem;
   text-align: left;
 }
-@media (max-width:500px) {
+@media (max-width: 500px) {
   h3 {
     font-size: 1.4rem;
   }
 }
-@media (max-width:1000px) {
+@media (max-width: 1000px) {
   h3 {
     font-size: 1.8rem;
   }
@@ -200,7 +200,7 @@ h3 {
   border-radius: 10px;
   border: inset;
 }
-@media (max-width:500px) {
+@media (max-width: 500px) {
   .head-container {
     color: white;
     height: 40vh;
@@ -284,7 +284,7 @@ footer {
   flex-wrap: wrap;
   border: 1px dashed red;
 }
-@media (max-width:500px) {
+@media (max-width: 500px) {
   .middle-content .parent {
     display: none;
     display: flex;
@@ -326,7 +326,7 @@ footer {
   width: 50%;
   height: 150px;
 }
-@media (max-width:500px) {
+@media (max-width: 500px) {
   .middle-content .parent .childOne .pic,
   .middle-content .parent .childTwo .pic {
     width: 98%;
@@ -338,7 +338,7 @@ footer {
   height: 100px;
   border-radius: 10%;
 }
-@media (max-width:500px) {
+@media (max-width: 500px) {
   .middle-content .parent {
     display: flex;
     flex-direction: column;
@@ -353,7 +353,7 @@ footer {
   align-items: center;
   height: 20vh;
 }
-@media (max-width:500px) {
+@media (max-width: 500px) {
   .Top-content .myimg {
     display: flex;
     flex-direction: column;
@@ -405,7 +405,7 @@ footer {
   width: 100%;
   font-size: 1rem;
 }
-@media (max-width:500px) {
+@media (max-width: 500px) {
   .myimg {
     display: flex;
     flex-direction: column;
@@ -460,7 +460,7 @@ footer {
     text-align: center;
   }
 }
-@media (min-width:1001px) {
+@media (min-width: 1001px) {
   table,
   th,
   td {
@@ -483,7 +483,7 @@ footer {
     display: none;
   }
 }
-@media (max-width:500px) {
+@media (max-width: 500px) {
   table,
   th,
   td {

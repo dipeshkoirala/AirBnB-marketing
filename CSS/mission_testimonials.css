@@ -1,0 +1,35 @@
+#testimonials {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+@media (min-width: 500px) {
+  #testimonials {
+    align-content: center;
+  }
+}
+#testimonials h4 {
+  align-content: center;
+  margin-bottom: 3%;
+}
+#testimonials h4 img .pic {
+  width: 100px;
+  height: 100px;
+}
+#testimonials h4 img .pic .quote {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  align-items: space-around;
+}
+@media (min-width: 500px) {
+  #testimonials h4 img .pic .quote {
+    display: flex;
+    flex-direction: column;
+  }
+}
+#testimonials h4 img .pic .quote .testimonial_1 {
+  display: flex;
+  align-content: flex-start;
+  width: 150px;
+}

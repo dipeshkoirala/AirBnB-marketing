@@ -1,0 +1,23 @@
+#Cozy {
+  display: flex;
+  flex-direction: row-reverse;
+}
+@media (min-width: 500px) {
+  #Cozy {
+    display: flex;
+    flex-direction: column;
+  }
+}
+#Cozy img {
+  margin-top: 1%;
+}
+#Cozy .cozy-info {
+  display: flex;
+  flex-direction: column;
+  margin: 3%;
+}
+#Cozy .cozy-info h4,
+#Cozy .cozy-info p,
+#Cozy .cozy-info li {
+  margin: 2%;
+}
