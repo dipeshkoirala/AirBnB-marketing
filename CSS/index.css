@@ -635,6 +635,170 @@ footer {
     align-items: center;
   }
 }
+@media (min-width:1001px) {
+  table,
+  th,
+  td {
+    display: none;
+    border: 1px solid black;
+  }
+  table tr:nth-child(even),
+  th tr:nth-child(even),
+  td tr:nth-child(even) {
+    display: none;
+  }
+  table tr:nth-child(odd),
+  th tr:nth-child(odd),
+  td tr:nth-child(odd) {
+    display: none;
+  }
+  table th,
+  th th,
+  td th {
+    display: none;
+  }
+}
+@media (max-width:500px) {
+  table,
+  th,
+  td {
+    margin: 15px auto;
+    padding: 22px;
+    border: 1px solid black;
+  }
+  table tr:nth-child(even),
+  th tr:nth-child(even),
+  td tr:nth-child(even) {
+    background-color: #eee;
+    color: black;
+  }
+  table tr:nth-child(odd),
+  th tr:nth-child(odd),
+  td tr:nth-child(odd) {
+    background-color: #ffa;
+    color: navy;
+  }
+  table th,
+  th th,
+  td th {
+    background-color: black;
+    color: white;
+  }
+}
+.Top-content .myimg {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+@media (max-width:500px) {
+  .Top-content .myimg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 98%;
+  }
+}
+.Top-content .img1,
+.Top-content .img2,
+.Top-content .img3,
+.Top-content .img4,
+.Top-content .img5,
+.Top-content .img6 {
+  height: 70%;
+  width: 12%;
+  background: black;
+  color: white;
+  margin: 2%;
+}
+.Top-content .img1 .t-pic,
+.Top-content .img2 .t-pic,
+.Top-content .img3 .t-pic,
+.Top-content .img4 .t-pic,
+.Top-content .img5 .t-pic,
+.Top-content .img6 .t-pic {
+  width: 100%;
+  height: 100%;
+}
+.Top-content .img1 .t-pic .t-img,
+.Top-content .img2 .t-pic .t-img,
+.Top-content .img3 .t-pic .t-img,
+.Top-content .img4 .t-pic .t-img,
+.Top-content .img5 .t-pic .t-img,
+.Top-content .img6 .t-pic .t-img {
+  width: 100%;
+  height: 150px;
+  border-radius: 50%;
+}
+.Top-content .img1 .t-txt,
+.Top-content .img2 .t-txt,
+.Top-content .img3 .t-txt,
+.Top-content .img4 .t-txt,
+.Top-content .img5 .t-txt,
+.Top-content .img6 .t-txt {
+  height: 30%;
+  background: #a599b5;
+  opacity: 50%;
+  width: 100%;
+  font-size: 1rem;
+}
+@media (max-width:500px) {
+  .myimg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .myimg .img1,
+  .myimg .img2,
+  .myimg .img3,
+  .myimg .img4,
+  .myimg .img5,
+  .myimg .img6 {
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .myimg .img1 .t-pic,
+  .myimg .img2 .t-pic,
+  .myimg .img3 .t-pic,
+  .myimg .img4 .t-pic,
+  .myimg .img5 .t-pic,
+  .myimg .img6 .t-pic {
+    border-radius: 10%;
+    background: navy;
+    margin-bottom: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .myimg .img1 .t-pic .t-img,
+  .myimg .img2 .t-pic .t-img,
+  .myimg .img3 .t-pic .t-img,
+  .myimg .img4 .t-pic .t-img,
+  .myimg .img5 .t-pic .t-img,
+  .myimg .img6 .t-pic .t-img {
+    width: 95%;
+    border-radius: 31%;
+  }
+  .myimg .img1 .t-txt,
+  .myimg .img2 .t-txt,
+  .myimg .img3 .t-txt,
+  .myimg .img4 .t-txt,
+  .myimg .img5 .t-txt,
+  .myimg .img6 .t-txt {
+    margin: 3%;
+    padding: 2%;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+  }
+}
 #footer {
   display: flex;
   justify-content: center;
